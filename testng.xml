@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
 <suite name="Suite">
+<listerners>
+	<listerner class name="util.BasicExtentReport" />
+</listerners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="apipackage.TC007_JsonFilePayload"/>
@@ -14,3 +18,4 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+ 

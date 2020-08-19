@@ -3,12 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apipackage.TC_DataDrivenAPI">
+      <class name="util.BasicExtentReport">
         <methods>
-          <include name="UserDetails"/>
-          <include name="TestData"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
+          <include name="testCase4"/>
+          <include name="testCase3"/>
+          <include name="getResult"/>
+          <include name="testCase5"/>
         </methods>
-      </class> <!-- apipackage.TC_DataDrivenAPI -->
+      </class> <!-- util.BasicExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
