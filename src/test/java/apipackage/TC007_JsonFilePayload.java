@@ -15,7 +15,7 @@ import util.TestBase;
 
 public class TC007_JsonFilePayload extends TestBase {
 
-	@Test
+	@Test 
 	public void UserDetails() {
 		logger.info("************TC007_JsonFilePayload execution started*********");
 

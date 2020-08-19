@@ -743,3 +743,163 @@
 2020-08-19 22:58:25 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
 2020-08-19 22:58:26 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
 2020-08-19 22:58:26 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:01:13 INFO  ResrAssuredAPI:20 - ************TC007_JsonFilePayload execution started*********
+2020-08-19 23:01:18 INFO  ResrAssuredAPI:59 - ************TC007_JsonFilePayload execution Completed successfully*********
+2020-08-19 23:01:18 INFO  ResrAssuredAPI:15 - ************TC006_Authorization execution started*********
+2020-08-19 23:01:20 INFO  ResrAssuredAPI:16 - ************TC005_ExtractValues execution started*********
+2020-08-19 23:01:20 INFO  ResrAssuredAPI:34 - ************TC005_ExtractValues execution Completed successfully*********
+2020-08-19 23:01:20 INFO  ResrAssuredAPI:17 - ************TC002_PostRequest execution started*********
+2020-08-19 23:01:21 INFO  ResrAssuredAPI:49 - ************TC002_PostRequest execution completed successfully*********
+2020-08-19 23:01:21 INFO  ResrAssuredAPI:16 - ************TC004_jsonresponse execution started*********
+2020-08-19 23:01:21 INFO  ResrAssuredAPI:32 - ************TC004_jsonresponse execution Completed successfully*********
+2020-08-19 23:01:21 INFO  ResrAssuredAPI:16 - ************TC001_GetRequest execution started*********
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:46 - ************TC001_GetRequest execution completed successfully*********
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:18 - ************TC003_HeaderResponse execution started*********
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:39 - ************TC003_HeaderResponse execution Complete successfully*********
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:24 - ************TC_DataDrivenAPI execution started*********
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:26 - Base URI declared
+2020-08-19 23:01:22 INFO  ResrAssuredAPI:30 - Request Object declared
+2020-08-19 23:01:23 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:01:23 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:01:23 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:01:24 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:01:24 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:01:24 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:01:24 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:01:24 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:01:25 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:01:26 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:01:26 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:01:26 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:01:26 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:01:26 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:01:27 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:01:27 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:10:30 INFO  ResrAssuredAPI:15 - ************TC006_Authorization execution started*********
+2020-08-19 23:10:33 INFO  ResrAssuredAPI:16 - ************TC005_ExtractValues execution started*********
+2020-08-19 23:10:34 INFO  ResrAssuredAPI:34 - ************TC005_ExtractValues execution Completed successfully*********
+2020-08-19 23:10:34 INFO  ResrAssuredAPI:17 - ************TC002_PostRequest execution started*********
+2020-08-19 23:10:35 INFO  ResrAssuredAPI:49 - ************TC002_PostRequest execution completed successfully*********
+2020-08-19 23:10:35 INFO  ResrAssuredAPI:16 - ************TC004_jsonresponse execution started*********
+2020-08-19 23:10:35 INFO  ResrAssuredAPI:32 - ************TC004_jsonresponse execution Completed successfully*********
+2020-08-19 23:10:35 INFO  ResrAssuredAPI:16 - ************TC001_GetRequest execution started*********
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:46 - ************TC001_GetRequest execution completed successfully*********
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:18 - ************TC003_HeaderResponse execution started*********
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:39 - ************TC003_HeaderResponse execution Complete successfully*********
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:24 - ************TC_DataDrivenAPI execution started*********
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:26 - Base URI declared
+2020-08-19 23:10:36 INFO  ResrAssuredAPI:30 - Request Object declared
+2020-08-19 23:10:37 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:10:37 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:10:37 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:10:38 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:10:38 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:10:38 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:10:38 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:10:38 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:10:39 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:10:40 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:10:40 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:10:40 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:10:40 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:10:40 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:10:41 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:10:41 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:13:02 INFO  ResrAssuredAPI:20 - ************TC007_JsonFilePayload execution started*********
+2020-08-19 23:13:06 INFO  ResrAssuredAPI:59 - ************TC007_JsonFilePayload execution Completed successfully*********
+2020-08-19 23:13:06 INFO  ResrAssuredAPI:17 - ************TC002_PostRequest execution started*********
+2020-08-19 23:13:06 INFO  ResrAssuredAPI:49 - ************TC002_PostRequest execution completed successfully*********
+2020-08-19 23:13:06 INFO  ResrAssuredAPI:15 - ************TC006_Authorization execution started*********
+2020-08-19 23:13:07 INFO  ResrAssuredAPI:16 - ************TC004_jsonresponse execution started*********
+2020-08-19 23:13:07 INFO  ResrAssuredAPI:32 - ************TC004_jsonresponse execution Completed successfully*********
+2020-08-19 23:13:07 INFO  ResrAssuredAPI:16 - ************TC001_GetRequest execution started*********
+2020-08-19 23:13:07 INFO  ResrAssuredAPI:46 - ************TC001_GetRequest execution completed successfully*********
+2020-08-19 23:13:07 INFO  ResrAssuredAPI:18 - ************TC003_HeaderResponse execution started*********
+2020-08-19 23:13:08 INFO  ResrAssuredAPI:39 - ************TC003_HeaderResponse execution Complete successfully*********
+2020-08-19 23:13:08 INFO  ResrAssuredAPI:24 - ************TC_DataDrivenAPI execution started*********
+2020-08-19 23:13:08 INFO  ResrAssuredAPI:26 - Base URI declared
+2020-08-19 23:13:08 INFO  ResrAssuredAPI:30 - Request Object declared
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:13:09 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:13:10 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:13:10 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:13:10 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:13:10 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:13:10 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:13:11 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:13:11 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:13:11 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:13:11 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:13:11 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:13:12 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:21:39 INFO  ResrAssuredAPI:20 - ************TC007_JsonFilePayload execution started*********
+2020-08-19 23:21:44 INFO  ResrAssuredAPI:59 - ************TC007_JsonFilePayload execution Completed successfully*********
+2020-08-19 23:21:44 INFO  ResrAssuredAPI:15 - ************TC006_Authorization execution started*********
+2020-08-19 23:21:45 INFO  ResrAssuredAPI:16 - ************TC005_ExtractValues execution started*********
+2020-08-19 23:21:46 INFO  ResrAssuredAPI:34 - ************TC005_ExtractValues execution Completed successfully*********
+2020-08-19 23:21:46 INFO  ResrAssuredAPI:17 - ************TC002_PostRequest execution started*********
+2020-08-19 23:21:47 INFO  ResrAssuredAPI:49 - ************TC002_PostRequest execution completed successfully*********
+2020-08-19 23:21:47 INFO  ResrAssuredAPI:16 - ************TC004_jsonresponse execution started*********
+2020-08-19 23:21:47 INFO  ResrAssuredAPI:32 - ************TC004_jsonresponse execution Completed successfully*********
+2020-08-19 23:21:47 INFO  ResrAssuredAPI:16 - ************TC001_GetRequest execution started*********
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:46 - ************TC001_GetRequest execution completed successfully*********
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:18 - ************TC003_HeaderResponse execution started*********
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:39 - ************TC003_HeaderResponse execution Complete successfully*********
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:24 - ************TC_DataDrivenAPI execution started*********
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:26 - Base URI declared
+2020-08-19 23:21:48 INFO  ResrAssuredAPI:30 - Request Object declared
+2020-08-19 23:21:49 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:21:49 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:21:49 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:21:50 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:21:50 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:21:50 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:21:50 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:21:50 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:21:51 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:21:51 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:21:51 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:21:51 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:21:51 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:39 - Json request data added through excel
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:45 - Payload defined as JSON type body
+2020-08-19 23:21:52 INFO  ResrAssuredAPI:49 - Post request send as response stored in Response object
+2020-08-19 23:21:53 INFO  ResrAssuredAPI:55 - Validating the elements receied in response
+2020-08-19 23:21:53 INFO  ResrAssuredAPI:63 - ************TC_DataDrivenAPI execution Completed successfully*********

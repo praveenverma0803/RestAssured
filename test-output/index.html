@@ -126,11 +126,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="apipackage.TC_DataDrivenAPI" class="method navigator-link" hash-for-method="TestData(GHI, Director)">TestData(GHI, Director)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="apipackage.TC_DataDrivenAPI" class="method navigator-link" hash-for-method="TestData(EFG, SrManager)">TestData(EFG, SrManager)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -146,12 +141,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="apipackage.TC002_PostRequest" class="method navigator-link" hash-for-method="UserDetails">UserDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="apipackage.TC_DataDrivenAPI" class="method navigator-link" hash-for-method="TestData(GHI, Director)">TestData(GHI, Director)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="apipackage.TC001_GetRequest" class="method navigator-link" hash-for-method="UserDetails">UserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="apipackage.TC002_PostRequest" class="method navigator-link" hash-for-method="UserDetails">UserDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -231,14 +231,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="TestData(GHI, Director)">
-                  </a> <!-- TestData(GHI, Director) -->
-                  <span class="method-name">TestData</span>
-                  <span class="parameters">(GHI, Director)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="TestData(EFG, SrManager)">
                   </a> <!-- TestData(EFG, SrManager) -->
                   <span class="method-name">TestData</span>
@@ -259,6 +251,14 @@
                   </a> <!-- TestData(PQR, TechLead) -->
                   <span class="method-name">TestData</span>
                   <span class="parameters">(PQR, TechLead)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestData(GHI, Director)">
+                  </a> <!-- TestData(GHI, Director) -->
+                  <span class="method-name">TestData</span>
+                  <span class="parameters">(GHI, Director)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -351,7 +351,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;util.BasicExtentReport&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;apipackage.TC007_JsonFilePayload&quot;/&gt;
       &lt;class name=&quot;apipackage.TC006_Authorization&quot;/&gt;
@@ -362,7 +362,7 @@
       &lt;class name=&quot;apipackage.TC003_HeaderResponse&quot;/&gt;
       &lt;class name=&quot;apipackage.TC_DataDrivenAPI&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- API Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -374,7 +374,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (8 classes)</span>
+                <span class="test-name">API Test (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -404,51 +404,51 @@ data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'UserDetails')
 data.setCell(0, 2, 'apipackage.TC007_JsonFilePayload')
-data.setCell(0, 3, 4943);
+data.setCell(0, 3, 4946);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Authorization')
 data.setCell(1, 2, 'apipackage.TC006_Authorization')
-data.setCell(1, 3, 1685);
+data.setCell(1, 3, 1730);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TestData')
-data.setCell(2, 2, 'apipackage.TC_DataDrivenAPI')
-data.setCell(2, 3, 791);
+data.setCell(2, 1, 'jsonresponse')
+data.setCell(2, 2, 'apipackage.TC005_ExtractValues')
+data.setCell(2, 3, 1000);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TestData')
-data.setCell(3, 2, 'apipackage.TC_DataDrivenAPI')
-data.setCell(3, 3, 749);
+data.setCell(3, 1, 'UserDetails')
+data.setCell(3, 2, 'apipackage.TC002_PostRequest')
+data.setCell(3, 3, 776);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TestData')
 data.setCell(4, 2, 'apipackage.TC_DataDrivenAPI')
-data.setCell(4, 3, 743);
+data.setCell(4, 3, 751);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'TestData')
 data.setCell(5, 2, 'apipackage.TC_DataDrivenAPI')
-data.setCell(5, 3, 717);
+data.setCell(5, 3, 715);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'TestData')
 data.setCell(6, 2, 'apipackage.TC_DataDrivenAPI')
-data.setCell(6, 3, 717);
+data.setCell(6, 3, 707);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'UserDetails')
-data.setCell(7, 2, 'apipackage.TC002_PostRequest')
-data.setCell(7, 3, 580);
+data.setCell(7, 1, 'TestData')
+data.setCell(7, 2, 'apipackage.TC_DataDrivenAPI')
+data.setCell(7, 3, 700);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'jsonresponse')
-data.setCell(8, 2, 'apipackage.TC005_ExtractValues')
-data.setCell(8, 3, 388);
+data.setCell(8, 1, 'TestData')
+data.setCell(8, 2, 'apipackage.TC_DataDrivenAPI')
+data.setCell(8, 3, 698);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'jsonresponse')
-data.setCell(9, 2, 'apipackage.TC004_jsonresponse')
-data.setCell(9, 3, 361);
+data.setCell(9, 1, 'UserDetails')
+data.setCell(9, 2, 'apipackage.TC001_GetRequest')
+data.setCell(9, 3, 317);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'UserDetails')
-data.setCell(10, 2, 'apipackage.TC001_GetRequest')
-data.setCell(10, 3, 324);
+data.setCell(10, 1, 'jsonresponse')
+data.setCell(10, 2, 'apipackage.TC004_jsonresponse')
+data.setCell(10, 3, 311);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'HeaderResponse')
 data.setCell(11, 2, 'apipackage.TC003_HeaderResponse')
-data.setCell(11, 3, 316);
+data.setCell(11, 3, 305);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -486,106 +486,106 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserDetails</span>
-                <span class="method-start">85 ms</span>
+                <span class="method-start">98 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC006_Authorization</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">5052 ms</span>
+                <span class="method-start">5075 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Authorization</span>
-                <span class="method-start">5052 ms</span>
+                <span class="method-start">5079 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC005_ExtractValues</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">6749 ms</span>
+                <span class="method-start">6815 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">jsonresponse</span>
-                <span class="method-start">6753 ms</span>
+                <span class="method-start">6818 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC002_PostRequest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">7141 ms</span>
+                <span class="method-start">7824 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserDetails</span>
-                <span class="method-start">7154 ms</span>
+                <span class="method-start">7839 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC004_jsonresponse</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">7749 ms</span>
+                <span class="method-start">8618 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">jsonresponse</span>
-                <span class="method-start">7749 ms</span>
+                <span class="method-start">8621 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC001_GetRequest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">8110 ms</span>
+                <span class="method-start">8934 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">UserDetails</span>
-                <span class="method-start">8126 ms</span>
+                <span class="method-start">8937 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC003_HeaderResponse</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">8452 ms</span>
+                <span class="method-start">9258 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">HeaderResponse</span>
-                <span class="method-start">8454 ms</span>
+                <span class="method-start">9262 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">apipackage.TC_DataDrivenAPI</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">logrecord</span>
-                <span class="method-start">8772 ms</span>
+                <span class="method-start">9569 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">UserDetails</span>
-                <span class="method-start">8776 ms</span>
+                <span class="method-start">9572 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">TestData(ABC, Lead)</span>
-                <span class="method-start">10002 ms</span>
+                <span class="method-start">10869 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestData(PQR, TechLead)</span>
-                <span class="method-start">10745 ms</span>
+                <span class="method-start">11592 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestData(STU, Manager)</span>
-                <span class="method-start">11537 ms</span>
+                <span class="method-start">12347 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestData(EFG, SrManager)</span>
-                <span class="method-start">12294 ms</span>
+                <span class="method-start">13049 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestData(GHI, Director)</span>
-                <span class="method-start">13014 ms</span>
+                <span class="method-start">13767 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="util.BasicExtentReport"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="API Test(failed)">
     <classes>
       <class name="apipackage.TC006_Authorization">
         <methods>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- apipackage.TC006_Authorization -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- API Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
