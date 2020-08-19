@@ -1,0 +1,1 @@
+{"uuid":"8db9f51c-a194-4e8a-a76e-f56dd8e6f1e2","name":"apipackage.TC001_GetRequest","children":["527dd35b-ce1b-46c0-9e60-d102629586c8"],"befores":[{"name":"logrecord","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1597865353450,"stop":1597865353453}],"afters":[],"links":[],"start":1597865343027,"stop":1597865359793}

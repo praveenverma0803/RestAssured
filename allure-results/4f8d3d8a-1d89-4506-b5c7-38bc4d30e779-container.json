@@ -1,0 +1,1 @@
+{"uuid":"4f8d3d8a-1d89-4506-b5c7-38bc4d30e779","name":"apipackage.TC006_Authorization","children":["4e865131-486e-4a0a-9e50-83c4af290aa5"],"befores":[{"name":"logrecord","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1597865349572,"stop":1597865349575}],"afters":[],"links":[],"start":1597865343028,"stop":1597865359807}

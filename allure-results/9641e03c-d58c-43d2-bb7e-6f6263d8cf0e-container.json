@@ -1,0 +1,1 @@
+{"uuid":"9641e03c-d58c-43d2-bb7e-6f6263d8cf0e","name":"apipackage.TC005_ExtractValues","children":["ea25f0bb-bb70-495f-8982-ab418412a2a1"],"befores":[{"name":"logrecord","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1597865351783,"stop":1597865351790}],"afters":[],"links":[],"start":1597865343028,"stop":1597865359806}
