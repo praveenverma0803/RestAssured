@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="util.BasicExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="util.BasicExtentReport">
+      <class name="apipackage.TC006_Authorization">
         <methods>
-          <include name="startReport"/>
-          <include name="tearDown"/>
-          <include name="testCase2"/>
-          <include name="testCase1"/>
-          <include name="testCase4"/>
-          <include name="testCase3"/>
-          <include name="getResult"/>
-          <include name="testCase5"/>
+          <include name="Authorization"/>
+          <include name="logrecord"/>
         </methods>
-      </class> <!-- util.BasicExtentReport -->
+      </class> <!-- apipackage.TC006_Authorization -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
