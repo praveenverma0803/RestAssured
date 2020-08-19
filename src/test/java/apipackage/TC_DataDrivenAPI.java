@@ -11,8 +11,9 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import util.ExcelUtils;
+import util.TestBase;
 
-public class TC_DataDrivenAPI {
+public class TC_DataDrivenAPI extends TestBase{
 
 	@SuppressWarnings("unchecked")
 	@Test (dataProvider = "exceluserdata" )
