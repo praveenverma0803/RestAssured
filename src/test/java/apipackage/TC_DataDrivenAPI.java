@@ -21,7 +21,7 @@ public class TC_DataDrivenAPI extends TestBase{
 	
 	@BeforeClass
 	public void UserDetails(){
-		
+		logger.info("************TC_DataDrivenAPI execution started*********");
 		//specify base URI
 				logger.info("Base URI declared");
 				RestAssured.baseURI = "https://reqres.in/api";
@@ -59,7 +59,9 @@ public class TC_DataDrivenAPI extends TestBase{
 			
 				int statuscode = response.getStatusCode();
 				System.out.println("Statsus code is: " +statuscode);
-				Assert.assertEquals(statuscode, 201);		
+				Assert.assertEquals(statuscode, 201);	
+			logger.info("************TC_DataDrivenAPI execution Completed successfully*********");
+
 }
 
 	

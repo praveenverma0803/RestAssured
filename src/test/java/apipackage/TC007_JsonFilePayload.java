@@ -11,12 +11,14 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import util.TestBase;
 
-public class TC007_JsonFilePayload {
+public class TC007_JsonFilePayload extends TestBase {
 
 	@Test
 	public void UserDetails() {
-		
+		logger.info("************TC007_JsonFilePayload execution started*********");
+
 	//specify base URI
 		RestAssured.baseURI = "https://reqres.in/api";
 		
@@ -52,6 +54,9 @@ public class TC007_JsonFilePayload {
 	//Verify contents in response body
 		String userjob = response.jsonPath().get("job");
 		Assert.assertEquals(userjob, "leader");
-		System.out.println("Job of created user:" +userjob);		
+		System.out.println("Job of created user:" +userjob);	
+		
+		logger.info("************TC007_JsonFilePayload execution Completed successfully*********");
+
 	}
 }

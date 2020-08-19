@@ -7,13 +7,15 @@ import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import util.TestBase;
 
-public class TC002_PostRequest {
+public class TC002_PostRequest extends TestBase {
 
 	@SuppressWarnings("unchecked")
 	@Test
 	public void UserDetails() {
-		
+		logger.info("************TC002_PostRequest execution started*********");
+	
 //specify base URI
 		RestAssured.baseURI = "https://reqres.in/api";
 		
@@ -42,6 +44,9 @@ public class TC002_PostRequest {
 //Verify contents in response body
 		String userjob = response.jsonPath().get("job");
 		Assert.assertEquals(userjob, "leader");
-		System.out.println("Job of created user:" +userjob);		
+		System.out.println("Job of created user:" +userjob);	
+		
+		logger.info("************TC002_PostRequest execution completed successfully*********");
+
 	}
 }

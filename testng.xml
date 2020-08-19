@@ -3,6 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="apipackage.TC007_JsonFilePayload"/>
+      <class name="apipackage.TC006_Authorization"/>
+      <class name="apipackage.TC005_ExtractValues"/>
+      <class name="apipackage.TC002_PostRequest"/>
+      <class name="apipackage.TC004_jsonresponse"/>
+      <class name="apipackage.TC001_GetRequest"/>
+      <class name="apipackage.TC003_HeaderResponse"/>
       <class name="apipackage.TC_DataDrivenAPI"/>
     </classes>
   </test> <!-- Test -->

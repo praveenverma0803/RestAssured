@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-19T08:56:30Z" name="Default suite" finished-at="2020-08-19T08:56:39Z" duration-ms="8607">
+  <suite started-at="2020-08-19T10:10:49Z" name="Suite" finished-at="2020-08-19T10:11:03Z" duration-ms="14267">
     <groups>
     </groups>
-    <test started-at="2020-08-19T08:56:30Z" name="Default test" finished-at="2020-08-19T08:56:39Z" duration-ms="8607">
-      <class name="apipackage.TC_DataDrivenAPI">
-        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:30Z" name="logrecord" finished-at="2020-08-19T08:56:30Z" duration-ms="128" status="PASS">
+    <test started-at="2020-08-19T10:10:49Z" name="Test" finished-at="2020-08-19T10:11:03Z" duration-ms="14267">
+      <class name="apipackage.TC002_PostRequest">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC002_PostRequest@5db250b4]" started-at="2020-08-19T10:10:56Z" name="logrecord" finished-at="2020-08-19T10:10:56Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logrecord -->
-        <test-method is-config="true" signature="UserDetails()[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:30Z" name="UserDetails" finished-at="2020-08-19T08:56:32Z" duration-ms="1308" status="PASS">
+        <test-method signature="UserDetails()[pri:0, instance:apipackage.TC002_PostRequest@5db250b4]" started-at="2020-08-19T10:10:56Z" name="UserDetails" finished-at="2020-08-19T10:10:57Z" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserDetails -->
-        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:33Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T08:56:36Z" duration-ms="2817" status="PASS">
+      </class> <!-- apipackage.TC002_PostRequest -->
+      <class name="apipackage.TC001_GetRequest">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC001_GetRequest@38c5cc4c]" started-at="2020-08-19T10:10:58Z" name="logrecord" finished-at="2020-08-19T10:10:58Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="UserDetails()[pri:0, instance:apipackage.TC001_GetRequest@38c5cc4c]" started-at="2020-08-19T10:10:58Z" name="UserDetails" finished-at="2020-08-19T10:10:58Z" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserDetails -->
+      </class> <!-- apipackage.TC001_GetRequest -->
+      <class name="apipackage.TC_DataDrivenAPI">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:10:58Z" name="logrecord" finished-at="2020-08-19T10:10:58Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method is-config="true" signature="UserDetails()[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:10:58Z" name="UserDetails" finished-at="2020-08-19T10:10:58Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserDetails -->
+        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:11:00Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T10:11:00Z" duration-ms="717" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:36Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T08:56:37Z" duration-ms="721" status="PASS">
+        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:11:00Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T10:11:01Z" duration-ms="732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:37Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T08:56:38Z" duration-ms="784" status="PASS">
+        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:11:01Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T10:11:02Z" duration-ms="733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:38Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T08:56:38Z" duration-ms="711" status="PASS">
+        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:11:02Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T10:11:03Z" duration-ms="726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestData -->
-        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@6a01e23]" started-at="2020-08-19T08:56:38Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T08:56:39Z" duration-ms="545" status="PASS">
+        <test-method signature="TestData(java.lang.String, java.lang.String)[pri:0, instance:apipackage.TC_DataDrivenAPI@78e94dcf]" started-at="2020-08-19T10:11:03Z" name="TestData" data-provider="exceluserdata" finished-at="2020-08-19T10:11:03Z" duration-ms="742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,6 +116,56 @@
           </reporter-output>
         </test-method> <!-- TestData -->
       </class> <!-- apipackage.TC_DataDrivenAPI -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="apipackage.TC003_HeaderResponse">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC003_HeaderResponse@37918c79]" started-at="2020-08-19T10:10:58Z" name="logrecord" finished-at="2020-08-19T10:10:58Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="HeaderResponse()[pri:0, instance:apipackage.TC003_HeaderResponse@37918c79]" started-at="2020-08-19T10:10:58Z" name="HeaderResponse" finished-at="2020-08-19T10:10:58Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderResponse -->
+      </class> <!-- apipackage.TC003_HeaderResponse -->
+      <class name="apipackage.TC007_JsonFilePayload">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC007_JsonFilePayload@184cf7cf]" started-at="2020-08-19T10:10:49Z" name="logrecord" finished-at="2020-08-19T10:10:49Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="UserDetails()[pri:0, instance:apipackage.TC007_JsonFilePayload@184cf7cf]" started-at="2020-08-19T10:10:49Z" name="UserDetails" finished-at="2020-08-19T10:10:54Z" duration-ms="4590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserDetails -->
+      </class> <!-- apipackage.TC007_JsonFilePayload -->
+      <class name="apipackage.TC004_jsonresponse">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC004_jsonresponse@223f3642]" started-at="2020-08-19T10:10:57Z" name="logrecord" finished-at="2020-08-19T10:10:57Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="jsonresponse()[pri:0, instance:apipackage.TC004_jsonresponse@223f3642]" started-at="2020-08-19T10:10:57Z" name="jsonresponse" finished-at="2020-08-19T10:10:58Z" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonresponse -->
+      </class> <!-- apipackage.TC004_jsonresponse -->
+      <class name="apipackage.TC006_Authorization">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC006_Authorization@2fd6b6c7]" started-at="2020-08-19T10:10:54Z" name="logrecord" finished-at="2020-08-19T10:10:54Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="Authorization()[pri:0, instance:apipackage.TC006_Authorization@2fd6b6c7]" started-at="2020-08-19T10:10:54Z" name="Authorization" finished-at="2020-08-19T10:10:56Z" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Authorization -->
+      </class> <!-- apipackage.TC006_Authorization -->
+      <class name="apipackage.TC005_ExtractValues">
+        <test-method is-config="true" signature="logrecord()[pri:0, instance:apipackage.TC005_ExtractValues@5bfa9431]" started-at="2020-08-19T10:10:56Z" name="logrecord" finished-at="2020-08-19T10:10:56Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logrecord -->
+        <test-method signature="jsonresponse()[pri:0, instance:apipackage.TC005_ExtractValues@5bfa9431]" started-at="2020-08-19T10:10:56Z" name="jsonresponse" finished-at="2020-08-19T10:10:56Z" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonresponse -->
+      </class> <!-- apipackage.TC005_ExtractValues -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

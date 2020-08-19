@@ -7,12 +7,16 @@ import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import util.TestBase;
 
-public class TC003_HeaderResponse {
+public class TC003_HeaderResponse extends TestBase{
 	
 	@SuppressWarnings("unused")
 	@Test
 	public void HeaderResponse() {
+		
+		logger.info("************TC003_HeaderResponse execution started*********");
+
 		
 		//specify base URI
 				RestAssured.baseURI = "https://reqres.in/api/users";
@@ -32,6 +36,8 @@ public class TC003_HeaderResponse {
 				System.out.println("Headers list: "+header.getName() +"   :   " +header.getValue());
 				}
 				
+				logger.info("************TC003_HeaderResponse execution Complete successfully*********");
+
 	}
 
 }

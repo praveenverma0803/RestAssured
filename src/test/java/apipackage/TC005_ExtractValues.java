@@ -6,11 +6,15 @@ import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 	import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import util.TestBase;
 
-public class TC005_ExtractValues {
+public class TC005_ExtractValues extends TestBase{
 
 	@Test
 	public void jsonresponse() {
+		
+		logger.info("************TC005_ExtractValues execution started*********");
+
 		//specify base URI
 		RestAssured.baseURI = "https://reqres.in/api/users/";
 		
@@ -26,6 +30,9 @@ public class TC005_ExtractValues {
 		System.out.println(jsonbody.get("data.email"));
 		System.out.println(jsonbody.get("data.first_name"));
 		System.out.println(jsonbody.get("data.last_name"));
+		
+		logger.info("************TC005_ExtractValues execution Completed successfully*********");
+	
 }
 	
 }
