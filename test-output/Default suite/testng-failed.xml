@@ -6,6 +6,7 @@
       <class name="apipackage.TC_DataDrivenAPI">
         <methods>
           <include name="UserDetails"/>
+          <include name="TestData"/>
         </methods>
       </class> <!-- apipackage.TC_DataDrivenAPI -->
     </classes>

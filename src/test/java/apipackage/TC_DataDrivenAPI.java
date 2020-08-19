@@ -1,9 +1,9 @@
 package apipackage;
 
 import java.io.IOException;
-
 import org.json.simple.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
@@ -14,31 +14,45 @@ import util.ExcelUtils;
 import util.TestBase;
 
 public class TC_DataDrivenAPI extends TestBase{
-
-	@SuppressWarnings("unchecked")
-	@Test (dataProvider = "exceluserdata" )
-	public void UserDetails(String Name, String Title) {
+	
+	RequestSpecification httpRequest;
+	Response response;
+	
+	
+	@BeforeClass
+	public void UserDetails(){
 		
 		//specify base URI
+				logger.info("Base URI declared");
 				RestAssured.baseURI = "https://reqres.in/api";
 				
 		//Request Object
-				RequestSpecification  httpRequest = RestAssured.given();
-						
+				logger.info("Request Object declared");
+				httpRequest = RestAssured.given();
+		
+	}
+	
+	@SuppressWarnings("unchecked")
+	@Test (dataProvider = "exceluserdata" )
+	public void TestData(String Name, String Title) {
 		//Request pay load
+				logger.info("Json request data added through excel");
 				JSONObject requestparms = new JSONObject();
 				requestparms.put("name", Name);
 				requestparms.put("job", Title);
 				
-				httpRequest.header("Content-Type", "application/json");		
+				httpRequest.header("Content-Type", "application/json");	
+				logger.info("Payload defined as JSON type body");
 				httpRequest.body(requestparms.toJSONString());
 				
 		//Response Object
-				Response response = httpRequest.request(Method.POST,"/users");
+				logger.info("Post request send as response stored in Response object");
+				response = httpRequest.request(Method.POST,"/users");
 				String Responsebody = response.getBody().asString();
 		//Print response
 				System.out.println("Response Body:" +Responsebody);
 		
+				logger.info("Validating the elements receied in response");
 		//Verify contents in response body
 				Assert.assertEquals(Responsebody.contains(Name), true);
 				Assert.assertEquals(Responsebody.contains(Title), true);
